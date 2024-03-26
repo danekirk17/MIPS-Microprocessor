@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Datapath_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Datapath_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="60000001fs"></ZoomEndTime>
+      <Cursor1Time time="37203000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="158"></NameColumnWidth>
+      <ValueColumnWidth column_width="239"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="49" />
+   <wvobject type="divider" fp_name="divider100">
+      <obj_property name="label">TOP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/PC_in" type="array">
+      <obj_property name="ElementShortName">PC_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/PC_reg" type="array">
+      <obj_property name="ElementShortName">PC_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_reg[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/cs_in" type="array">
+      <obj_property name="ElementShortName">cs_in[17:0]</obj_property>
+      <obj_property name="ObjectShortName">cs_in[17:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/cs_out" type="array">
+      <obj_property name="ElementShortName">cs_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">cs_out[11:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider164">
+      <obj_property name="label">PC_REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/PC_register/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/PC_register/d" type="array">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/PC_register/q" type="array">
+      <obj_property name="ElementShortName">q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider101">
+      <obj_property name="label">MEMORY</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/memory/w_en" type="logic">
+      <obj_property name="ElementShortName">w_en</obj_property>
+      <obj_property name="ObjectShortName">w_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/memory/r_en" type="logic">
+      <obj_property name="ElementShortName">r_en</obj_property>
+      <obj_property name="ObjectShortName">r_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/memory/addr" type="array">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/memory/r_data" type="array">
+      <obj_property name="ElementShortName">r_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider102">
+      <obj_property name="label">INS_REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/ir_data/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/ir_data/d" type="array">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/ir_data/op_out" type="array">
+      <obj_property name="ElementShortName">op_out[5:0]</obj_property>
+      <obj_property name="ObjectShortName">op_out[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/ir_data/rd_out" type="array">
+      <obj_property name="ElementShortName">rd_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/ir_data/sh_out" type="array">
+      <obj_property name="ElementShortName">sh_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/ir_data/f_out" type="array">
+      <obj_property name="ElementShortName">f_out[5:0]</obj_property>
+      <obj_property name="ObjectShortName">f_out[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider684">
+      <obj_property name="label">MDR_REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/MDR_register/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/MDR_register/d" type="array">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/MDR_register/q" type="array">
+      <obj_property name="ElementShortName">q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider288">
+      <obj_property name="label">IMM_EXT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/imm_ex/input" type="array">
+      <obj_property name="ElementShortName">input[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/imm_ex/output" type="array">
+      <obj_property name="ElementShortName">output[31:0]</obj_property>
+      <obj_property name="ObjectShortName">output[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider289">
+      <obj_property name="label">IMM_SHIFT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/imm_shifter/input" type="array">
+      <obj_property name="ElementShortName">input[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/imm_shifter/output" type="array">
+      <obj_property name="ElementShortName">output[31:0]</obj_property>
+      <obj_property name="ObjectShortName">output[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider380">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/alu0/IN1" type="array">
+      <obj_property name="ElementShortName">IN1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IN1[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/alu0/IN2" type="array">
+      <obj_property name="ElementShortName">IN2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IN2[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/alu0/ALU_OUT" type="array">
+      <obj_property name="ElementShortName">ALU_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_OUT[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/alu0/SEL" type="array">
+      <obj_property name="ElementShortName">SEL[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SEL[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider231">
+      <obj_property name="label">ALU_REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/alu_register/d" type="array">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/alu_register/q" type="array">
+      <obj_property name="ElementShortName">q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider180">
+      <obj_property name="label">REG_FILE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/register_file/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/register_file/addr1" type="array">
+      <obj_property name="ElementShortName">addr1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/register_file/addr2" type="array">
+      <obj_property name="ElementShortName">addr2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/register_file/addr3" type="array">
+      <obj_property name="ElementShortName">addr3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr3[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/register_file/dout1" type="array">
+      <obj_property name="ElementShortName">dout1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout1[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/register_file/dout2" type="array">
+      <obj_property name="ElementShortName">dout2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout2[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/register_file/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/uut/register_file/din" type="array">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

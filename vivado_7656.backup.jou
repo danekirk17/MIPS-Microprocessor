@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Apr 11 17:14:14 2020
+# Process ID: 7656
+# Current directory: C:/Users/Daneyboy/Documents/UOG/Comp Org/CPU_Complete
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13988 C:\Users\Daneyboy\Documents\UOG\Comp Org\CPU_Complete\CPU_Complete.xpr
+# Log file: C:/Users/Daneyboy/Documents/UOG/Comp Org/CPU_Complete/vivado.log
+# Journal file: C:/Users/Daneyboy/Documents/UOG/Comp Org/CPU_Complete\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Daneyboy/Documents/UOG/Comp Org/CPU_Complete/CPU_Complete.xpr}
+set_property part xc7a100tcsg324-1 [current_project]
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+open_run impl_1
+close_design
+launch_simulation -mode post-implementation -type timing
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+close_design
+launch_simulation -mode post-implementation -type timing
+open_wave_config {C:/Users/Daneyboy/Documents/UOG/Comp Org/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+restart
+run 1000
+close_sim

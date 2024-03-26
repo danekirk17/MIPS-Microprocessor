@@ -1,0 +1,14 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/inst-control_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'inst_control_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/mem_alu_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mem_alu_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Datapath_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/Downloads/Control_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Control_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/new/clk_div_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clk_div_tb'

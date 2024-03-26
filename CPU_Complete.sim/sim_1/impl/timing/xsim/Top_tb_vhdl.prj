@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" \
+"../../../../../CPU_Complete.srcs/sim_1/imports/new/inst-control_tb.vhd" \
+"../../../../../CPU_Complete.srcs/sim_1/imports/new/mem_alu_tb.vhd" \
+"../../../../../CPU_Complete.srcs/sim_1/new/Datapath_tb.vhd" \
+"../../../../../CPU_Complete.srcs/sim_1/imports/new/ALU_tb.vhd" \
+"../../../../../CPU_Complete.srcs/sim_1/imports/Downloads/Control_tb.vhd" \
+"../../../../../CPU_Complete.srcs/sim_1/new/clk_div_tb.vhd" \
+
+# Do not sort compile order
+nosort

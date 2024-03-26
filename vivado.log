@@ -1,0 +1,2353 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.3 (64-bit)
+# SW Build 2644227 on Wed Sep  4 09:45:24 MDT 2019
+# IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+# Start of session at: Mon Apr 13 18:40:31 2020
+# Process ID: 896
+# Current directory: C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17016 C:\Users\owend\Documents\U of G\Second Year\Second Semester\ENGG 3380\Project\CPU\CPU_Complete\CPU_Complete.xpr
+# Log file: C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/vivado.log
+# Journal file: C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete'
+INFO: [Project 1-313] Project file moved from 'C:/Users/owend/Downloads/CPU_Complete/CPU_Complete' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:09 . Memory (MB): peak = 819.477 ; gain = 139.914
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/three_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'three_MUX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/micro_store.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'micro_store'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/microPC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'microPC'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/ins_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ins_register'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/incrementer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'incrementer'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/microCU_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'microCU_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/LUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LUT'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/reg_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'reg_file'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/ClkDiv.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ClkDiv'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/sevseg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sev_seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ins_module'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/gen_reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gen_reg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ins_reg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/datapath_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'datapath_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/adr_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'adr_MUX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/gen_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gen_MUX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shifter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/sign_ext.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sign_ext'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/alu_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_control'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/imports/ALU/Three_One_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Three_One_MUX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/imports/bit_binary_logic_VHDL/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'logic_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/ALU_Structural.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Structural'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/ALU_Structural32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Structural32'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/Arithmetic_Unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Arithmetic_Unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/OVF_Structural.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'OVF_Structural'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/FullAdder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FullAdder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/periph_reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'periph_reg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/inst-control_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'inst_control_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/mem_alu_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mem_alu_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Datapath_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/Downloads/Control_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Control_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/new/clk_div_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clk_div_tb'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 870.262 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ClkDiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_register [ins_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.incrementer [incrementer_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_MUX [three_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.microPC [micropc_default]
+Compiling architecture behavioral of entity xil_defaultlib.micro_store [micro_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.microCU_top [microcu_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_reg [gen_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_MUX [gen_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_module [ins_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.periph_reg [periph_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_reg [ins_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.adr_MUX [adr_mux_default]
+Compiling architecture behavioural of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture dataflow of entity xil_defaultlib.Three_One_MUX [three_one_mux_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural [alu_structural_default]
+Compiling architecture behavioral of entity xil_defaultlib.OVF_Structural [ovf_structural_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural32 [alu_structural32_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_top [datapath_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture structural of entity xil_defaultlib.sev_seg [sev_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot Top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_behav -key {Behavioral:sim_1:Functional:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 901.906 ; gain = 31.645
+run 3000
+ERROR: Index 104 out of bound 0 to 100
+Time: 4875 ns  Iteration: 4  Process: /Top_tb/uut/datapath/memory/mem
+  File: C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd
+
+HDL Line: C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd:43
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/reg_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'reg_file'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_behav -key {Behavioral:sim_1:Functional:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 927.496 ; gain = 0.000
+run 2000
+run 1000
+ERROR: Index 104 out of bound 0 to 100
+Time: 4875 ns  Iteration: 4  Process: /Top_tb/uut/datapath/memory/mem
+  File: C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd
+
+HDL Line: C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd:43
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-2266] Removing simulation data...
+INFO: [Vivado 12-2267] Reset complete
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/three_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'three_MUX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/micro_store.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'micro_store'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/microPC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'microPC'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/ins_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ins_register'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/incrementer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'incrementer'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/microCU_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'microCU_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/LUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LUT'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/reg_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'reg_file'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/ClkDiv.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ClkDiv'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/sevseg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sev_seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ins_module'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/gen_reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gen_reg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ins_reg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/datapath_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'datapath_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/adr_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'adr_MUX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/gen_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gen_MUX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shifter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/sign_ext.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sign_ext'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/alu_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_control'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/imports/ALU/Three_One_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Three_One_MUX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/imports/bit_binary_logic_VHDL/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'logic_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/ALU_Structural.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Structural'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/ALU_Structural32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Structural32'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/Arithmetic_Unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Arithmetic_Unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/OVF_Structural.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'OVF_Structural'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/FullAdder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FullAdder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/periph_reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'periph_reg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/inst-control_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'inst_control_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/mem_alu_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mem_alu_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Datapath_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/Downloads/Control_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Control_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/new/clk_div_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clk_div_tb'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 994.680 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ClkDiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_register [ins_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.incrementer [incrementer_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_MUX [three_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.microPC [micropc_default]
+Compiling architecture behavioral of entity xil_defaultlib.micro_store [micro_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.microCU_top [microcu_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_reg [gen_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_MUX [gen_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_module [ins_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.periph_reg [periph_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_reg [ins_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.adr_MUX [adr_mux_default]
+Compiling architecture behavioural of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture dataflow of entity xil_defaultlib.Three_One_MUX [three_one_mux_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural [alu_structural_default]
+Compiling architecture behavioral of entity xil_defaultlib.OVF_Structural [ovf_structural_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural32 [alu_structural32_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_top [datapath_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture structural of entity xil_defaultlib.sev_seg [sev_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot Top_tb_behav
+
+****** Webtalk v2019.1.3 (64-bit)
+  **** SW Build 2644227 on Wed Sep  4 09:45:24 MDT 2019
+  **** IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/owend/Documents/U -notrace
+couldn't read file "C:/Users/owend/Documents/U": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 13 18:45:24 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_behav -key {Behavioral:sim_1:Functional:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+xsim: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 996.359 ; gain = 1.680
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 996.359 ; gain = 1.680
+run 3000
+run 1000
+ERROR: Index 104 out of bound 0 to 100
+Time: 5425 ns  Iteration: 4  Process: /Top_tb/uut/datapath/memory/mem
+  File: C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd
+
+HDL Line: C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd:43
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ClkDiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_register [ins_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.incrementer [incrementer_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_MUX [three_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.microPC [micropc_default]
+Compiling architecture behavioral of entity xil_defaultlib.micro_store [micro_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.microCU_top [microcu_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_reg [gen_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_MUX [gen_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_module [ins_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.periph_reg [periph_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_reg [ins_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.adr_MUX [adr_mux_default]
+Compiling architecture behavioural of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture dataflow of entity xil_defaultlib.Three_One_MUX [three_one_mux_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural [alu_structural_default]
+Compiling architecture behavioral of entity xil_defaultlib.OVF_Structural [ovf_structural_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural32 [alu_structural32_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_top [datapath_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture structural of entity xil_defaultlib.sev_seg [sev_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot Top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_behav -key {Behavioral:sim_1:Functional:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 996.359 ; gain = 0.000
+run 4000
+ERROR: Index 104 out of bound 0 to 100
+Time: 5725 ns  Iteration: 4  Process: /Top_tb/uut/datapath/memory/mem
+  File: C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd
+
+HDL Line: C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd:43
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/ClkDiv.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ClkDiv'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ClkDiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_register [ins_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.incrementer [incrementer_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_MUX [three_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.microPC [micropc_default]
+Compiling architecture behavioral of entity xil_defaultlib.micro_store [micro_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.microCU_top [microcu_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_reg [gen_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_MUX [gen_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_module [ins_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.periph_reg [periph_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_reg [ins_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.adr_MUX [adr_mux_default]
+Compiling architecture behavioural of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture dataflow of entity xil_defaultlib.Three_One_MUX [three_one_mux_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural [alu_structural_default]
+Compiling architecture behavioral of entity xil_defaultlib.OVF_Structural [ovf_structural_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural32 [alu_structural32_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_top [datapath_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture structural of entity xil_defaultlib.sev_seg [sev_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot Top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_behav -key {Behavioral:sim_1:Functional:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 996.359 ; gain = 0.000
+run 10000
+run 5000
+run 4000
+run 3000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ClkDiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_register [ins_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.incrementer [incrementer_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_MUX [three_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.microPC [micropc_default]
+Compiling architecture behavioral of entity xil_defaultlib.micro_store [micro_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.microCU_top [microcu_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_reg [gen_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_MUX [gen_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_module [ins_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.periph_reg [periph_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_reg [ins_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.adr_MUX [adr_mux_default]
+Compiling architecture behavioural of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture dataflow of entity xil_defaultlib.Three_One_MUX [three_one_mux_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural [alu_structural_default]
+Compiling architecture behavioral of entity xil_defaultlib.OVF_Structural [ovf_structural_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural32 [alu_structural32_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_top [datapath_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture structural of entity xil_defaultlib.sev_seg [sev_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot Top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_behav -key {Behavioral:sim_1:Functional:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 996.359 ; gain = 0.000
+run 10000
+run 5000
+run 5000
+run 10000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property -name {xsim.simulate.runtime} -value {15000} -objects [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/ClkDiv.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/reg_file.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/ClkDiv.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/reg_file.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/ClkDiv.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/reg_file.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ClkDiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_register [ins_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.incrementer [incrementer_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_MUX [three_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.microPC [micropc_default]
+Compiling architecture behavioral of entity xil_defaultlib.micro_store [micro_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.microCU_top [microcu_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_reg [gen_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_MUX [gen_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_module [ins_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.periph_reg [periph_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_reg [ins_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.adr_MUX [adr_mux_default]
+Compiling architecture behavioural of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture dataflow of entity xil_defaultlib.Three_One_MUX [three_one_mux_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural [alu_structural_default]
+Compiling architecture behavioral of entity xil_defaultlib.OVF_Structural [ovf_structural_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural32 [alu_structural32_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_top [datapath_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture structural of entity xil_defaultlib.sev_seg [sev_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot Top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_behav -key {Behavioral:sim_1:Functional:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 15000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 15000
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1022.469 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ClkDiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_register [ins_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.incrementer [incrementer_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_MUX [three_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.microPC [micropc_default]
+Compiling architecture behavioral of entity xil_defaultlib.micro_store [micro_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.microCU_top [microcu_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_reg [gen_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_MUX [gen_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_module [ins_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.periph_reg [periph_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_reg [ins_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.adr_MUX [adr_mux_default]
+Compiling architecture behavioural of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture dataflow of entity xil_defaultlib.Three_One_MUX [three_one_mux_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural [alu_structural_default]
+Compiling architecture behavioral of entity xil_defaultlib.OVF_Structural [ovf_structural_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural32 [alu_structural32_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_top [datapath_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture structural of entity xil_defaultlib.sev_seg [sev_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot Top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_behav -key {Behavioral:sim_1:Functional:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 15000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 15000
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1231.207 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ClkDiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_register [ins_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.incrementer [incrementer_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_MUX [three_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.microPC [micropc_default]
+Compiling architecture behavioral of entity xil_defaultlib.micro_store [micro_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.microCU_top [microcu_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_reg [gen_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_MUX [gen_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_module [ins_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.periph_reg [periph_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_reg [ins_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.adr_MUX [adr_mux_default]
+Compiling architecture behavioural of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture dataflow of entity xil_defaultlib.Three_One_MUX [three_one_mux_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural [alu_structural_default]
+Compiling architecture behavioral of entity xil_defaultlib.OVF_Structural [ovf_structural_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural32 [alu_structural32_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_top [datapath_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture structural of entity xil_defaultlib.sev_seg [sev_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot Top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_behav -key {Behavioral:sim_1:Functional:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 15000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 15000
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1231.207 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ClkDiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_register [ins_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.incrementer [incrementer_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_MUX [three_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.microPC [micropc_default]
+Compiling architecture behavioral of entity xil_defaultlib.micro_store [micro_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.microCU_top [microcu_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_reg [gen_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_MUX [gen_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_module [ins_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.periph_reg [periph_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_reg [ins_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.adr_MUX [adr_mux_default]
+Compiling architecture behavioural of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture dataflow of entity xil_defaultlib.Three_One_MUX [three_one_mux_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural [alu_structural_default]
+Compiling architecture behavioral of entity xil_defaultlib.OVF_Structural [ovf_structural_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural32 [alu_structural32_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_top [datapath_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture structural of entity xil_defaultlib.sev_seg [sev_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot Top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_behav -key {Behavioral:sim_1:Functional:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 15000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 15000
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1231.207 ; gain = 0.000
+run 5000
+run 10000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property -name {xsim.simulate.runtime} -value {50000} -objects [get_filesets sim_1]
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ClkDiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_register [ins_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.incrementer [incrementer_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_MUX [three_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.microPC [micropc_default]
+Compiling architecture behavioral of entity xil_defaultlib.micro_store [micro_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.microCU_top [microcu_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_reg [gen_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_MUX [gen_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_module [ins_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.periph_reg [periph_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_reg [ins_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.adr_MUX [adr_mux_default]
+Compiling architecture behavioural of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture dataflow of entity xil_defaultlib.Three_One_MUX [three_one_mux_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural [alu_structural_default]
+Compiling architecture behavioral of entity xil_defaultlib.OVF_Structural [ovf_structural_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural32 [alu_structural32_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_top [datapath_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture structural of entity xil_defaultlib.sev_seg [sev_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot Top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_behav -key {Behavioral:sim_1:Functional:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 50000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 50000
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1231.207 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ClkDiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_register [ins_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.incrementer [incrementer_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_MUX [three_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.microPC [micropc_default]
+Compiling architecture behavioral of entity xil_defaultlib.micro_store [micro_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.microCU_top [microcu_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_reg [gen_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_MUX [gen_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_module [ins_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.periph_reg [periph_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_reg [ins_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.adr_MUX [adr_mux_default]
+Compiling architecture behavioural of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture dataflow of entity xil_defaultlib.Three_One_MUX [three_one_mux_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural [alu_structural_default]
+Compiling architecture behavioral of entity xil_defaultlib.OVF_Structural [ovf_structural_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural32 [alu_structural32_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_top [datapath_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture structural of entity xil_defaultlib.sev_seg [sev_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot Top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_behav -key {Behavioral:sim_1:Functional:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 50000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 50000
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1231.207 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property simulator_language Mixed [current_project]
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ClkDiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_register [ins_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.incrementer [incrementer_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_MUX [three_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.microPC [micropc_default]
+Compiling architecture behavioral of entity xil_defaultlib.micro_store [micro_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.microCU_top [microcu_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_reg [gen_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_MUX [gen_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_module [ins_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.periph_reg [periph_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_reg [ins_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.adr_MUX [adr_mux_default]
+Compiling architecture behavioural of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture dataflow of entity xil_defaultlib.Three_One_MUX [three_one_mux_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural [alu_structural_default]
+Compiling architecture behavioral of entity xil_defaultlib.OVF_Structural [ovf_structural_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural32 [alu_structural32_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_top [datapath_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture structural of entity xil_defaultlib.sev_seg [sev_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot Top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_behav -key {Behavioral:sim_1:Functional:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 50000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 50000
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1231.207 ; gain = 0.000
+run for 10000
+ERROR: [Simtcl 6-18] Time value for is missing the numeric part.
+for 10000
+wrong # args: should be "for start test next command"
+run 10000
+run 10000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ClkDiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_register [ins_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.incrementer [incrementer_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_MUX [three_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.microPC [micropc_default]
+Compiling architecture behavioral of entity xil_defaultlib.micro_store [micro_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.microCU_top [microcu_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_reg [gen_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_MUX [gen_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_module [ins_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.periph_reg [periph_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_reg [ins_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.adr_MUX [adr_mux_default]
+Compiling architecture behavioural of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture dataflow of entity xil_defaultlib.Three_One_MUX [three_one_mux_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural [alu_structural_default]
+Compiling architecture behavioral of entity xil_defaultlib.OVF_Structural [ovf_structural_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural32 [alu_structural32_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_top [datapath_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture structural of entity xil_defaultlib.sev_seg [sev_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot Top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_behav -key {Behavioral:sim_1:Functional:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 50000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 50000
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1231.207 ; gain = 0.000
+run 10000
+run 20000
+run 20000
+run 20000
+run 20000
+run 20000
+run 20000
+run 30000
+run 30000
+run 30000
+run 50000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-2266] Removing simulation data...
+INFO: [Vivado 12-2267] Reset complete
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/three_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'three_MUX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/micro_store.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'micro_store'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/microPC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'microPC'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/ins_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ins_register'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/incrementer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'incrementer'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/microCU_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'microCU_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/LUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LUT'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/reg_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'reg_file'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/ClkDiv.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ClkDiv'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/sevseg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sev_seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ins_module'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/gen_reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gen_reg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ins_reg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/datapath_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'datapath_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/adr_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'adr_MUX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/gen_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gen_MUX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shifter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/sign_ext.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sign_ext'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/alu_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_control'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/imports/ALU/Three_One_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Three_One_MUX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/imports/bit_binary_logic_VHDL/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'logic_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/ALU_Structural.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Structural'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/ALU_Structural32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Structural32'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/Arithmetic_Unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Arithmetic_Unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/OVF_Structural.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'OVF_Structural'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/FullAdder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FullAdder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/periph_reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'periph_reg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/inst-control_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'inst_control_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/mem_alu_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mem_alu_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Datapath_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/Downloads/Control_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Control_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/new/clk_div_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clk_div_tb'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1231.207 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ClkDiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_register [ins_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.incrementer [incrementer_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_MUX [three_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.microPC [micropc_default]
+Compiling architecture behavioral of entity xil_defaultlib.micro_store [micro_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.microCU_top [microcu_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_reg [gen_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_MUX [gen_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_module [ins_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.periph_reg [periph_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_reg [ins_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.adr_MUX [adr_mux_default]
+Compiling architecture behavioural of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture dataflow of entity xil_defaultlib.Three_One_MUX [three_one_mux_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural [alu_structural_default]
+Compiling architecture behavioral of entity xil_defaultlib.OVF_Structural [ovf_structural_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural32 [alu_structural32_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_top [datapath_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture structural of entity xil_defaultlib.sev_seg [sev_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot Top_tb_behav
+
+****** Webtalk v2019.1.3 (64-bit)
+  **** SW Build 2644227 on Wed Sep  4 09:45:24 MDT 2019
+  **** IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/owend/Documents/U -notrace
+couldn't read file "C:/Users/owend/Documents/U": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 13 19:04:11 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_behav -key {Behavioral:sim_1:Functional:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 50000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 50000
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:13 . Memory (MB): peak = 1231.207 ; gain = 0.000
+run 50000
+run 50000
+run 50000
+run 50000
+run 50000
+run 50000
+run 50000
+run 50000
+run 50000
+run 50000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ClkDiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_register [ins_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.incrementer [incrementer_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_MUX [three_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.microPC [micropc_default]
+Compiling architecture behavioral of entity xil_defaultlib.micro_store [micro_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.microCU_top [microcu_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_reg [gen_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_MUX [gen_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_module [ins_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.periph_reg [periph_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_reg [ins_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.adr_MUX [adr_mux_default]
+Compiling architecture behavioural of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture dataflow of entity xil_defaultlib.Three_One_MUX [three_one_mux_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural [alu_structural_default]
+Compiling architecture behavioral of entity xil_defaultlib.OVF_Structural [ovf_structural_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural32 [alu_structural32_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_top [datapath_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture structural of entity xil_defaultlib.sev_seg [sev_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'elaborate' step aborted
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1231.207 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/ClkDiv.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ClkDiv'
+ERROR: [VRFC 10-4982] syntax error near 'clock_divider' [C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/ClkDiv.vhd:20]
+INFO: [VRFC 10-3070] VHDL file 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/ClkDiv.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property -name {xsim.simulate.runtime} -value {5000} -objects [get_filesets sim_1]
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/ClkDiv.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ClkDiv'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ClkDiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_register [ins_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.incrementer [incrementer_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_MUX [three_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.microPC [micropc_default]
+Compiling architecture behavioral of entity xil_defaultlib.micro_store [micro_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.microCU_top [microcu_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_reg [gen_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_MUX [gen_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_module [ins_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.periph_reg [periph_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_reg [ins_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.adr_MUX [adr_mux_default]
+Compiling architecture behavioural of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture dataflow of entity xil_defaultlib.Three_One_MUX [three_one_mux_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural [alu_structural_default]
+Compiling architecture behavioral of entity xil_defaultlib.OVF_Structural [ovf_structural_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural32 [alu_structural32_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_top [datapath_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture structural of entity xil_defaultlib.sev_seg [sev_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot Top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_behav -key {Behavioral:sim_1:Functional:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 5000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 5000
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1245.664 ; gain = 0.219
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property -name {xsim.simulate.runtime} -value {8000} -objects [get_filesets sim_1]
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ClkDiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_register [ins_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.incrementer [incrementer_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_MUX [three_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.microPC [micropc_default]
+Compiling architecture behavioral of entity xil_defaultlib.micro_store [micro_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.microCU_top [microcu_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_reg [gen_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_MUX [gen_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_module [ins_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.periph_reg [periph_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_reg [ins_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.adr_MUX [adr_mux_default]
+Compiling architecture behavioural of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture dataflow of entity xil_defaultlib.Three_One_MUX [three_one_mux_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural [alu_structural_default]
+Compiling architecture behavioral of entity xil_defaultlib.OVF_Structural [ovf_structural_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural32 [alu_structural32_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_top [datapath_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture structural of entity xil_defaultlib.sev_seg [sev_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot Top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_behav -key {Behavioral:sim_1:Functional:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 8000
+ERROR: Index 104 out of bound 0 to 100
+Time: 7075 ns  Iteration: 4  Process: /Top_tb/uut/datapath/memory/mem
+  File: C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd
+
+HDL Line: C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd:43
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 8000
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1500.070 ; gain = 0.000
+launch_simulation -mode post-implementation -type timing
+INFO: [Vivado 12-5682] Launching post-implementation timing simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/impl/timing/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-20] The target language is set to VHDL, it is not supported for simulation type 'timing', using Verilog instead.
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Netlist 29-17] Analyzing 390 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.330 . Memory (MB): peak = 2164.105 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.330 . Memory (MB): peak = 2164.105 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2164.105 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 97 instances were transformed.
+  LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 1 instances
+  RAM16X1S => RAM32X1S (RAMS32): 32 instances
+  RAM32X1S => RAM32X1S (RAMS32): 32 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 32 instances
+
+open_run: Time (s): cpu = 00:00:35 ; elapsed = 00:00:28 . Memory (MB): peak = 2294.395 ; gain = 794.324
+INFO: [SIM-utils-31] Writing simulation netlist file for design 'impl_1'...
+INFO: [SIM-utils-32] write_verilog -mode timesim -nolib -sdf_anno true -force -file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/impl/timing/xsim/Top_tb_time_impl.v"
+INFO: [SIM-utils-34] Writing SDF file...
+INFO: [SIM-utils-35] write_sdf -mode timesim -process_corner slow -force -file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/impl/timing/xsim/Top_tb_time_impl.sdf"
+INFO: [SIM-utils-36] Netlist generated:C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/impl/timing/xsim/Top_tb_time_impl.v
+INFO: [SIM-utils-37] SDF generated:C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/impl/timing/xsim/Top_tb_time_impl.sdf
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/impl/timing/xsim'
+"xvlog --incr --relax -prj Top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/impl/timing/xsim/Top_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LDCP_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM32X1S_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD1
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD10
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD11
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD12
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD13
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD14
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD15
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD16
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD17
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD18
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD19
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD2
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD20
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD21
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD22
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD23
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD24
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD25
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD26
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD27
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD28
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD29
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD3
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD30
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD31
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD32
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD33
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD34
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD35
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD36
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD37
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD38
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD39
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD4
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD40
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD41
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD42
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD43
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD44
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD45
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD46
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD47
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD48
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD49
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD5
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD50
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD51
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD52
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD53
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD54
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD55
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD56
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD57
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD58
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD59
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD6
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD60
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD61
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD62
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD63
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD7
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD8
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD9
+INFO: [VRFC 10-311] analyzing module RAM64X1S_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD64
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD65
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD66
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD67
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD68
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD69
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD70
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD71
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD72
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD73
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD74
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD75
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD76
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD77
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD78
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD79
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD80
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD81
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD82
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD83
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD84
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD85
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD86
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD87
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD88
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD89
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD90
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD91
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD92
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD93
+INFO: [VRFC 10-311] analyzing module RAM64X1S_HD94
+INFO: [VRFC 10-311] analyzing module ClkDiv
+INFO: [VRFC 10-311] analyzing module ClkDiv_0
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-311] analyzing module alu_control
+INFO: [VRFC 10-311] analyzing module datapath_top
+INFO: [VRFC 10-311] analyzing module gen_MUX
+INFO: [VRFC 10-311] analyzing module gen_MUX_1
+INFO: [VRFC 10-311] analyzing module gen_MUX_2
+INFO: [VRFC 10-311] analyzing module gen_MUX_3
+INFO: [VRFC 10-311] analyzing module gen_MUX_4
+INFO: [VRFC 10-311] analyzing module gen_MUX_9
+INFO: [VRFC 10-311] analyzing module gen_reg
+INFO: [VRFC 10-311] analyzing module gen_reg_5
+INFO: [VRFC 10-311] analyzing module gen_reg_6
+INFO: [VRFC 10-311] analyzing module gen_reg_7
+INFO: [VRFC 10-311] analyzing module gen_reg_8
+INFO: [VRFC 10-311] analyzing module ins_module
+INFO: [VRFC 10-311] analyzing module ins_reg
+INFO: [VRFC 10-311] analyzing module ins_register
+INFO: [VRFC 10-311] analyzing module microCU_top
+INFO: [VRFC 10-311] analyzing module microPC
+INFO: [VRFC 10-311] analyzing module periph_reg
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-311] analyzing module sev_seg
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/inst-control_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'inst_control_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/mem_alu_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mem_alu_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Datapath_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/Downloads/Control_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Control_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/new/clk_div_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clk_div_tb'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2311.719 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/impl/timing/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot Top_tb_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.Top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot Top_tb_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.Top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "Top_tb_time_impl.sdf", for root module "Top_tb/uut".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "Top_tb_time_impl.sdf", for root module "Top_tb/uut".
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module simprims_ver.OBUFT
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.x_lut1_mux2
+Compiling module simprims_ver.LUT1
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module simprims_ver.x_lut3_mux8
+Compiling module simprims_ver.LUT3
+Compiling module simprims_ver.LUT4
+Compiling module simprims_ver.LUT5
+Compiling module simprims_ver.FDRE_default
+Compiling module xil_defaultlib.ClkDiv
+Compiling module simprims_ver.latchsre_ldce
+Compiling module simprims_ver.LDCE
+Compiling module simprims_ver.GND
+Compiling module simprims_ver.VCC
+Compiling module xil_defaultlib.LDCP_UNIQ_BASE_
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.MUXF7
+Compiling module xil_defaultlib.alu_control
+Compiling module xil_defaultlib.ins_register
+Compiling module xil_defaultlib.microPC
+Compiling module xil_defaultlib.microCU_top
+Compiling module xil_defaultlib.gen_reg
+Compiling module xil_defaultlib.gen_MUX
+Compiling module xil_defaultlib.gen_MUX_1
+Compiling module xil_defaultlib.gen_MUX_2
+Compiling module xil_defaultlib.gen_MUX_3
+Compiling module xil_defaultlib.gen_MUX_4
+Compiling module xil_defaultlib.gen_reg_5
+Compiling module xil_defaultlib.gen_reg_6
+Compiling module xil_defaultlib.gen_reg_7
+Compiling module xil_defaultlib.gen_reg_8
+Compiling module xil_defaultlib.ins_reg
+Compiling module simprims_ver.RAMS32
+Compiling module xil_defaultlib.RAM32X1S_UNIQ_BASE_
+Compiling module xil_defaultlib.RAM32X1S_HD1
+Compiling module xil_defaultlib.RAM32X1S_HD2
+Compiling module xil_defaultlib.RAM32X1S_HD3
+Compiling module xil_defaultlib.RAM32X1S_HD4
+Compiling module xil_defaultlib.RAM32X1S_HD5
+Compiling module xil_defaultlib.RAM32X1S_HD6
+Compiling module xil_defaultlib.RAM32X1S_HD7
+Compiling module xil_defaultlib.RAM32X1S_HD8
+Compiling module xil_defaultlib.RAM32X1S_HD9
+Compiling module xil_defaultlib.RAM32X1S_HD10
+Compiling module xil_defaultlib.RAM32X1S_HD11
+Compiling module xil_defaultlib.RAM32X1S_HD12
+Compiling module xil_defaultlib.RAM32X1S_HD13
+Compiling module xil_defaultlib.RAM32X1S_HD14
+Compiling module xil_defaultlib.RAM32X1S_HD15
+Compiling module xil_defaultlib.RAM32X1S_HD16
+Compiling module xil_defaultlib.RAM32X1S_HD17
+Compiling module xil_defaultlib.RAM32X1S_HD18
+Compiling module xil_defaultlib.RAM32X1S_HD19
+Compiling module xil_defaultlib.RAM32X1S_HD20
+Compiling module xil_defaultlib.RAM32X1S_HD21
+Compiling module xil_defaultlib.RAM32X1S_HD22
+Compiling module xil_defaultlib.RAM32X1S_HD23
+Compiling module xil_defaultlib.RAM32X1S_HD24
+Compiling module xil_defaultlib.RAM32X1S_HD25
+Compiling module xil_defaultlib.RAM32X1S_HD26
+Compiling module xil_defaultlib.RAM32X1S_HD27
+Compiling module xil_defaultlib.RAM32X1S_HD28
+Compiling module xil_defaultlib.RAM32X1S_HD29
+Compiling module xil_defaultlib.RAM32X1S_HD30
+Compiling module xil_defaultlib.RAM32X1S_HD31
+Compiling module xil_defaultlib.RAM32X1S_HD32
+Compiling module xil_defaultlib.RAM32X1S_HD33
+Compiling module xil_defaultlib.RAM32X1S_HD34
+Compiling module xil_defaultlib.RAM32X1S_HD35
+Compiling module xil_defaultlib.RAM32X1S_HD36
+Compiling module xil_defaultlib.RAM32X1S_HD37
+Compiling module xil_defaultlib.RAM32X1S_HD38
+Compiling module xil_defaultlib.RAM32X1S_HD39
+Compiling module xil_defaultlib.RAM32X1S_HD40
+Compiling module xil_defaultlib.RAM32X1S_HD41
+Compiling module xil_defaultlib.RAM32X1S_HD42
+Compiling module xil_defaultlib.RAM32X1S_HD43
+Compiling module xil_defaultlib.RAM32X1S_HD44
+Compiling module xil_defaultlib.RAM32X1S_HD45
+Compiling module xil_defaultlib.RAM32X1S_HD46
+Compiling module xil_defaultlib.RAM32X1S_HD47
+Compiling module xil_defaultlib.RAM32X1S_HD48
+Compiling module xil_defaultlib.RAM32X1S_HD49
+Compiling module xil_defaultlib.RAM32X1S_HD50
+Compiling module xil_defaultlib.RAM32X1S_HD51
+Compiling module xil_defaultlib.RAM32X1S_HD52
+Compiling module xil_defaultlib.RAM32X1S_HD53
+Compiling module xil_defaultlib.RAM32X1S_HD54
+Compiling module xil_defaultlib.RAM32X1S_HD55
+Compiling module xil_defaultlib.RAM32X1S_HD56
+Compiling module xil_defaultlib.RAM32X1S_HD57
+Compiling module xil_defaultlib.RAM32X1S_HD58
+Compiling module xil_defaultlib.RAM32X1S_HD59
+Compiling module xil_defaultlib.RAM32X1S_HD60
+Compiling module xil_defaultlib.RAM32X1S_HD61
+Compiling module xil_defaultlib.RAM32X1S_HD62
+Compiling module xil_defaultlib.RAM32X1S_HD63
+Compiling module simprims_ver.RAMS64E(RAM_ADDRESS_MASK=2'b11,R...
+Compiling module xil_defaultlib.RAM64X1S_UNIQ_BASE_
+Compiling module xil_defaultlib.RAM64X1S_HD64
+Compiling module xil_defaultlib.RAM64X1S_HD65
+Compiling module xil_defaultlib.RAM64X1S_HD66
+Compiling module xil_defaultlib.RAM64X1S_HD67
+Compiling module xil_defaultlib.RAM64X1S_HD68
+Compiling module xil_defaultlib.RAM64X1S_HD69
+Compiling module xil_defaultlib.RAM64X1S_HD70
+Compiling module xil_defaultlib.RAM64X1S_HD71
+Compiling module xil_defaultlib.RAM64X1S_HD72
+Compiling module xil_defaultlib.RAM64X1S_HD73
+Compiling module xil_defaultlib.RAM64X1S_HD74
+Compiling module xil_defaultlib.RAM64X1S_HD75
+Compiling module xil_defaultlib.RAM64X1S_HD76
+Compiling module xil_defaultlib.RAM64X1S_HD77
+Compiling module xil_defaultlib.RAM64X1S_HD78
+Compiling module xil_defaultlib.RAM64X1S_HD79
+Compiling module xil_defaultlib.RAM64X1S_HD80
+Compiling module xil_defaultlib.RAM64X1S_HD81
+Compiling module xil_defaultlib.RAM64X1S_HD82
+Compiling module xil_defaultlib.RAM64X1S_HD83
+Compiling module xil_defaultlib.RAM64X1S_HD84
+Compiling module xil_defaultlib.RAM64X1S_HD85
+Compiling module xil_defaultlib.RAM64X1S_HD86
+Compiling module xil_defaultlib.RAM64X1S_HD87
+Compiling module xil_defaultlib.RAM64X1S_HD88
+Compiling module xil_defaultlib.RAM64X1S_HD89
+Compiling module xil_defaultlib.RAM64X1S_HD90
+Compiling module xil_defaultlib.RAM64X1S_HD91
+Compiling module xil_defaultlib.RAM64X1S_HD92
+Compiling module xil_defaultlib.RAM64X1S_HD93
+Compiling module xil_defaultlib.RAM64X1S_HD94
+Compiling module xil_defaultlib.ins_module
+Compiling module xil_defaultlib.gen_MUX_9
+Compiling module xil_defaultlib.periph_reg
+Compiling module simprims_ver.FDRE(INIT=1'b1)
+Compiling module xil_defaultlib.reg_file
+Compiling module xil_defaultlib.datapath_top
+Compiling module simprims_ver.OBUF
+Compiling module xil_defaultlib.ClkDiv_0
+Compiling module xil_defaultlib.sev_seg
+Compiling module xil_defaultlib.Top
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot Top_tb_time_impl
+
+****** Webtalk v2019.1.3 (64-bit)
+  **** SW Build 2644227 on Wed Sep  4 09:45:24 MDT 2019
+  **** IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/owend/Documents/U -notrace
+couldn't read file "C:/Users/owend/Documents/U": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 13 19:19:17 2020...
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:42 . Memory (MB): peak = 2311.719 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '42' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/impl/timing/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_time_impl -key {Post-Implementation:sim_1:Timing:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+WARNING: Simulation object /Top_tb/uut/clk_div/CLK100MHz was not found in the design.
+WARNING: Simulation object /Top_tb/uut/clk_div/clk_out was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/PC_in was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/PC_reg was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/cs_in was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/memory/w_en was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/memory/w_data was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/memory/addr was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/memory/r_en was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/memory/r_data was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/periph/sw was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/MUX_periph/sel was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/ir_data/d was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/register_file/we was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/register_file/addr1 was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/register_file/addr2 was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/register_file/dout1 was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/register_file/dout2 was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/register_file/addr3 was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/register_file/din was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/alu0/IN1 was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/alu0/IN2 was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/alu0/ALU_OUT was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/alu0/Zero was not found in the design.
+WARNING: Simulation object /Top_tb/uut/datapath/MUX_PCsrc/mux_out was not found in the design.
+WARNING: Simulation object /Top_tb/uut/sevseg/input was not found in the design.
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 8000
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/BUFG.v" Line 57: Timing violation in scope /Top_tb/uut/all_cs_BUFG[14]_inst/TChk57_8405 at time 1216279 ps $period (posedge I,(0:0:0),notifier) 
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/LDCE.v" Line 163: Timing violation in scope /Top_tb/uut/datapath/register_file/dout2_reg[22]/TChk163_8714 at time 1857823 ps $setuphold (posedge G,negedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/LDCE.v" Line 163: Timing violation in scope /Top_tb/uut/datapath/register_file/dout1_reg[26]/TChk163_8714 at time 1857842 ps $setuphold (posedge G,negedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/BUFG.v" Line 57: Timing violation in scope /Top_tb/uut/all_cs_BUFG[14]_inst/TChk57_8405 at time 2496087 ps $period (posedge I,(0:0:0),notifier) 
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/BUFG.v" Line 56: Timing violation in scope /Top_tb/uut/all_cs_BUFG[14]_inst/TChk56_8404 at time 2496279 ps $period (negedge I,(0:0:0),notifier) 
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /Top_tb/uut/datapath/register_file/dout2_reg[22]/TChk166_8717 at time 5697823 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_time_impl' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 8000
+launch_simulation: Time (s): cpu = 00:00:52 ; elapsed = 00:01:23 . Memory (MB): peak = 2311.719 ; gain = 811.648
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run
+run 10000
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/BUFG.v" Line 57: Timing violation in scope /Top_tb/uut/all_cs_BUFG[14]_inst/TChk57_8405 at time 1216279 ps $period (posedge I,(0:0:0),notifier) 
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/LDCE.v" Line 163: Timing violation in scope /Top_tb/uut/datapath/register_file/dout2_reg[22]/TChk163_8714 at time 1857823 ps $setuphold (posedge G,negedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/LDCE.v" Line 163: Timing violation in scope /Top_tb/uut/datapath/register_file/dout1_reg[26]/TChk163_8714 at time 1857842 ps $setuphold (posedge G,negedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/BUFG.v" Line 57: Timing violation in scope /Top_tb/uut/all_cs_BUFG[14]_inst/TChk57_8405 at time 2496087 ps $period (posedge I,(0:0:0),notifier) 
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/BUFG.v" Line 56: Timing violation in scope /Top_tb/uut/all_cs_BUFG[14]_inst/TChk56_8404 at time 2496279 ps $period (negedge I,(0:0:0),notifier) 
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /Top_tb/uut/datapath/register_file/dout2_reg[22]/TChk166_8717 at time 5697823 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /Top_tb/uut/datapath/register_file/dout1_reg[26]/TChk166_8717 at time 8257842 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/BUFG.v" Line 57: Timing violation in scope /Top_tb/uut/all_cs_BUFG[14]_inst/TChk57_8405 at time 8896087 ps $period (posedge I,(0:0:0),notifier) 
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/BUFG.v" Line 56: Timing violation in scope /Top_tb/uut/all_cs_BUFG[14]_inst/TChk56_8404 at time 8896279 ps $period (negedge I,(0:0:0),notifier) 
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/LDCE.v" Line 166: Timing violation in scope /Top_tb/uut/datapath/register_file/r4_reg[5]/TChk166_8717 at time 9222845 ps $setuphold (posedge G,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_p,in_clk_enable_p,G_dly,D_dly) 
+WARNING: "C:\Xilinx\Vivado\2019.1\data/verilog/src/unisims/BUFG.v" Line 57: Timing violation in scope /Top_tb/uut/all_cs_BUFG[14]_inst/TChk57_8405 at time 9856087 ps $period (posedge I,(0:0:0),notifier) 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Top_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+"xelab -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Top_tb_behav -key {Behavioral:sim_1:Functional:Top_tb} -tclbatch {Top_tb.tcl} -view {{C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}} -log {simulate.log} -nosignalhandlers"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+source Top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 8000
+ERROR: Index 104 out of bound 0 to 100
+Time: 7075 ns  Iteration: 4  Process: /Top_tb/uut/datapath/memory/mem
+  File: C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd
+
+HDL Line: C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd:43
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 8000
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 2311.719 ; gain = 0.000
+save_wave_config {C:/Users/owend/Documents/U of G/Second Year/Second Semester/ENGG 3380/Project/CPU/CPU_Complete/CPU_Complete.srcs/sim_1/imports/CPU_Apr8/Top_tb_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_design
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 13 20:01:55 2020...

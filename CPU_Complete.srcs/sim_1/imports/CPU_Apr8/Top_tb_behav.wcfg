@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="7075000001fs"></ZoomEndTime>
+      <Cursor1Time time="425000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="145"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="41" />
+   <wvobject type="divider" fp_name="divider100">
+      <obj_property name="label">TOP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/top_clk" type="logic">
+      <obj_property name="ElementShortName">top_clk</obj_property>
+      <obj_property name="ObjectShortName">top_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/top_reset" type="logic">
+      <obj_property name="ElementShortName">top_reset</obj_property>
+      <obj_property name="ObjectShortName">top_reset</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1516">
+      <obj_property name="label">CLK_DIV</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/clk_div/CLK100MHz" type="logic">
+      <obj_property name="ElementShortName">CLK100MHz</obj_property>
+      <obj_property name="ObjectShortName">CLK100MHz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/clk_div/clk_out" type="logic">
+      <obj_property name="ElementShortName">clk_out</obj_property>
+      <obj_property name="ObjectShortName">clk_out</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider766">
+      <obj_property name="label">DATAPATH</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/PC_in" type="array">
+      <obj_property name="ElementShortName">PC_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/PC_reg" type="array">
+      <obj_property name="ElementShortName">PC_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/cs_in" type="array">
+      <obj_property name="ElementShortName">cs_in[17:0]</obj_property>
+      <obj_property name="ObjectShortName">cs_in[17:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider101">
+      <obj_property name="label">MEMORY</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/memory/w_en" type="logic">
+      <obj_property name="ElementShortName">w_en</obj_property>
+      <obj_property name="ObjectShortName">w_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/memory/w_data" type="array">
+      <obj_property name="ElementShortName">w_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/memory/addr" type="array">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/memory/r_en" type="logic">
+      <obj_property name="ElementShortName">r_en</obj_property>
+      <obj_property name="ObjectShortName">r_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/memory/r_data" type="array">
+      <obj_property name="ElementShortName">r_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider51">
+      <obj_property name="label">P_REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/periph/sw" type="array">
+      <obj_property name="ElementShortName">sw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider55">
+      <obj_property name="label">P_MUX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/MUX_periph/sel" type="array">
+      <obj_property name="ElementShortName">sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider102">
+      <obj_property name="label">INS_REG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/ir_data/d" type="array">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider180">
+      <obj_property name="label">REG_FILE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/register_file/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/register_file/addr1" type="array">
+      <obj_property name="ElementShortName">addr1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/register_file/addr2" type="array">
+      <obj_property name="ElementShortName">addr2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/register_file/dout1" type="array">
+      <obj_property name="ElementShortName">dout1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/register_file/dout2" type="array">
+      <obj_property name="ElementShortName">dout2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/register_file/addr3" type="array">
+      <obj_property name="ElementShortName">addr3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr3[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/register_file/din" type="array">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider380">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/alu0/IN1" type="array">
+      <obj_property name="ElementShortName">IN1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IN1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/alu0/IN2" type="array">
+      <obj_property name="ElementShortName">IN2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IN2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/alu0/ALU_OUT" type="array">
+      <obj_property name="ElementShortName">ALU_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/alu0/Zero" type="logic">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider771">
+      <obj_property name="label">MUX_PC_SRC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/MUX_PCsrc/mux_out" type="array">
+      <obj_property name="ElementShortName">mux_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1679">
+      <obj_property name="label">Program Output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/datapath/register_file/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/SW" type="array">
+      <obj_property name="ElementShortName">SW[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SW[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/sevseg/input" type="array">
+      <obj_property name="ElementShortName">input[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input[31:0]</obj_property>
+   </wvobject>
+</wave_config>

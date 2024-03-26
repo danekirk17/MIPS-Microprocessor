@@ -1,0 +1,72 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/three_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'three_MUX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/micro_store.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'micro_store'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/microPC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'microPC'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/ins_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ins_register'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/incrementer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'incrementer'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/microCU_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'microCU_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/LUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LUT'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/reg_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'reg_file'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/ClkDiv.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ClkDiv'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/sevseg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sev_seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_module.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ins_module'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/new/Top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/new/gen_reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gen_reg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/new/ins_reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ins_reg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/new/datapath_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'datapath_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/new/adr_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'adr_MUX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/new/gen_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gen_MUX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/new/shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shifter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/new/sign_ext.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sign_ext'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/new/alu_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu_control'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/imports/ALU/Three_One_MUX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Three_One_MUX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/imports/bit_binary_logic_VHDL/logic_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'logic_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/ALU_Structural.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Structural'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/ALU_Structural32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Structural32'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/Arithmetic_Unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Arithmetic_Unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/OVF_Structural.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'OVF_Structural'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/imports/sources_1/new/FullAdder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FullAdder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sources_1/new/periph_reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'periph_reg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/Top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/inst-control_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'inst_control_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/mem_alu_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mem_alu_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sim_1/new/Datapath_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Datapath_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sim_1/imports/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sim_1/imports/Downloads/Control_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Control_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Daneyboy/Documents/UOG/FPGA_Projects/CPU_Complete_Vivado_2019/CPU_Complete/CPU_Complete.srcs/sim_1/new/clk_div_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clk_div_tb'

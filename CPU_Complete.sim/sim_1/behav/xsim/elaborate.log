@@ -1,0 +1,46 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto cc12c5cecfba4a358444d00a7382a582 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Top_tb_behav xil_defaultlib.Top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.ClkDiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_register [ins_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.incrementer [incrementer_default]
+Compiling architecture behavioral of entity xil_defaultlib.three_MUX [three_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.microPC [micropc_default]
+Compiling architecture behavioral of entity xil_defaultlib.micro_store [micro_store_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture behavioral of entity xil_defaultlib.microCU_top [microcu_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_reg [gen_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.gen_MUX [gen_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_module [ins_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.periph_reg [periph_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ins_reg [ins_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.adr_MUX [adr_mux_default]
+Compiling architecture behavioural of entity xil_defaultlib.reg_file [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture behavioral of entity xil_defaultlib.shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_unit [logic_unit_default]
+Compiling architecture dataflow of entity xil_defaultlib.Three_One_MUX [three_one_mux_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural [alu_structural_default]
+Compiling architecture behavioral of entity xil_defaultlib.OVF_Structural [ovf_structural_default]
+Compiling architecture structural of entity xil_defaultlib.ALU_Structural32 [alu_structural32_default]
+Compiling architecture behavioral of entity xil_defaultlib.datapath_top [datapath_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture structural of entity xil_defaultlib.sev_seg [sev_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot Top_tb_behav
